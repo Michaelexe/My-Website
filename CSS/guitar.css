@@ -1,0 +1,83 @@
+p {
+	color: white; 
+	text-shadow: 3px 3px 5px black; 
+	font-size: 28px; 
+	margin: 30px
+}
+
+
+
+body { 
+	background-size: cover; 
+	background-attachment: fixed; 
+	margin: 0px
+}
+
+
+
+#top-bar {
+	background-color: rgb(10,10,10); 
+	width: 100%; 
+	height: 64px
+}
+
+
+
+#home-tab {
+	background-color: rgb(10,10,10); 
+	position: absolute; 
+	left: 16.6%; 
+	width: 16.6%
+}
+
+
+
+
+#code-tab {
+	background-color: rgb(10,10,10); 
+	position: absolute; 
+	left: 33.3%; 
+	width: 16.6%;
+}
+
+
+
+#courses-tab {
+	background-color: rgb(10,10,10); 
+	position: absolute; 
+	left: 50%; 
+	width: 16.6%;
+}
+
+
+
+#contact-tab {
+	background-color: rgb(10,10,10); 
+	position: absolute; 
+	left: 66.6%; 
+	width: 16.6%;
+}
+
+
+
+#home-tab:hover {
+	background-color:  black;
+}
+
+
+
+#code-tab:hover {
+	background-color:  black;
+}
+
+
+
+#contact-tab:hover {
+	background-color:  black;
+}
+
+
+
+#courses-tab:hover {
+	background-color:  black;
+}
