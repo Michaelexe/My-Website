@@ -1,0 +1,126 @@
+p {
+	color: white; 
+	font-size: 28px; 
+	margin: 30px; 
+	text-shadow: 5px 5px 5px Black
+}
+
+
+
+body { 
+	background-size: cover; 
+	background-attachment: fixed; 
+	margin: 0;
+}
+
+
+
+#top-bar {
+	background-color: rgb(10,10,10);
+	height: 47%
+}
+
+
+#guitar-tab {
+	background-color: rgb(10,10,10); 
+	position: absolute; 
+	top: 33%;
+	left: 16.6%; 
+	width: 16.6%;
+	height: 14%
+}
+
+
+
+#code-tab {
+	background-color: rgb(10,10,10); 
+	position: absolute; 
+	top: 33%;
+	left: 33.3%; 
+	width: 16.6%;
+	height: 14%
+}
+
+
+
+#courses-tab {
+	background-color: rgb(10,10,10); 
+	position: absolute; 
+	top: 33%;
+	left: 50%; 
+	width: 16.6%;
+	height: 14%
+}
+
+
+
+#contact-tab {
+	background-color: rgb(10,10,10); 
+	position: absolute; 
+	top: 33%;
+	left: 66.6%; 
+	width: 16.6%;
+	height: 14%
+}
+
+
+
+#bottom-bar {
+	position: absolute;
+	top: 165%;
+	width: 100%;
+	height: 30%; 
+	background-color: #7B4398;
+}
+
+
+
+#instagram {
+	position: absolute; 
+	top: 33%; 
+	left: 35%;
+	background-color: #7B4398;
+}
+
+
+
+#twitter {
+	position: absolute; 
+	top: 33%; 
+	left: 47.5%; 
+	background-color: #7B4398;
+}
+
+
+
+#github {
+	position: absolute; 
+	top: 33%; 
+	left: 60%; 
+	background-color: #7B4398;
+}
+
+
+
+#guitar-tab:hover {
+	background-color:  black;
+}
+
+
+
+#code-tab:hover {
+	background-color:  black;
+}
+
+
+
+#contact-tab:hover {
+	background-color:  black;
+}
+
+
+
+#courses-tab:hover {
+	background-color:  black;
+}
+

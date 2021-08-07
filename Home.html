@@ -3,56 +3,51 @@
 <html>
 	<head>
 		<!-- adding a style to every element in the body -->
-		<style>
-
-			p {color: white; font-size: 28px; margin: 30px; text-shadow: 5px 5px 5px Black}
-			body {background-image: url('images/background.jpg'); background-size: cover; background-attachment: fixed; margin: 0;}
-
-		</style>
+		<link rel="stylesheet" href="CSS/home.css">
 
 		<title>Home</title>
 
 	</head>
-	<body>
+	<body style="background-image: url('images/background.jpg')">
 
 		<!-- div acts as a container-->
 
-		<div style="background-color: Black">
+		<div id="top-bar">
 			<br>
 			<h1 style="color:yellow; font-size: 42px" align="center"><u>WELCOME TO MY WEBSITE!</u></h1>
 			<p style="color: white; font-size: 20px; margin: 15px" align="center">click one of the tabs below to know more!</p>
 			<br>
 			<br>
 			<br>
-		</div>
+		
 
-		<div style="background-color: Black; position: absolute; top: 150px;left: 200px; width: 150px">
 			<a href="Guitar.html">
-				<h2 style="color: White" align="center"><u>Guitar</u></h1>
-			</a>
-			
-		</div>
+				<div id="guitar-tab">
+					<h2 style="color: White" align="center"><u>Guitar</u></h2>
+				</div>
 
-		<div style="background-color: Black; position: absolute; top: 150px;left: 350px; width: 150px">
+			</a>
+
 			<a href="Code.html">
-				<h2 style="color: White" align="center"><u>Code</u></h1>
+				<div id="code-tab">
+					<h2 style="color: White" align="center"><u>Code</u></h2>			
+				</div>
 			</a>
-			
-		</div>
 
-		<div style="background-color: Black; position: absolute; top: 150px;left: 500px; width: 150px">
 			<a href="Courses.html">
-				<h2 style="color: White" align="center"><u>Courses</u></h1>
+				<div id="courses-tab">
+					<h2 style="color: White" align="center"><u>Courses</u></h2>			
+				</div>
 			</a>
-			
-		</div>
 
-		<div style="background-color: Black; position: absolute; top: 150px;left: 650px; width: 150px">
 			<a href="Contact.html">
-				<h2 style="color: White" align="center"><u>Contact</u></h1>
+				<div id="contact-tab">
+					<h2 style="color: White" align="center"><u>Contact</u></h2>
+				</div>
 			</a>
-			
+
 		</div>
+			
 
 		<br>
 		<br>
@@ -63,21 +58,21 @@
 
 		<p align="center">If you are interested in knowing more about me that is not shown in this website, you can check out my socials that I've linked below</p>
 
-		<div style="height: 100px; background-color: #7B4398">
+		<div id="bottom-bar">
 
-			<div style="position: absolute; top: 800px; left: 380px; background-color: #7B4398">
+			<div id="instagram">
 				<a href= "https://www.instagram.com/michaelispahani/">
 					<img src="images/instagram.png", alt="instagram link", height="50", width="50", align="center">
 				</a>
 			</div>
 
-			<div style="position: absolute; top: 800px; left: 480px; background-color: #7B4398">
+			<div id="twitter">
 				<a href="https://twitter.com/ispahanimichael">
 					<img src="images/Twitter.png", alt="twitter link", height="50", width="50", align="center">
 				</a>
 			</div>
 
-			<div style="position: absolute; top: 800px; left: 580px; background-color: #7B4398">
+			<div id="github">
 				<a href="https://github.com/Michaelexe">
 					<img src="images/github.png", alt="github link", height="50", width="50" align="center">
 				</a>
