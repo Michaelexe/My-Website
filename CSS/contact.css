@@ -116,6 +116,7 @@ body {
 	position: absolute;
 	top: 25%;
 	left: 10%;
+	width: 90%
 }
 
 
@@ -125,34 +126,84 @@ body {
 	position: absolute;
 	top: 25%;
 	left: 10%;
+	width: 80%
+}
+
+
+
+#instagram-text-div {
+	position: absolute;
+	top: 0px;
+	left: 28%;
+}
+
+
+
+#twitter-text-div {
+	position: absolute;
+	top: 60px;
+	left: 28%;
+}
+
+
+
+
+#github-text-div {
+	position: absolute;
+	top: 130px;
+	left: 28%;
 }
 
 
 
 #instagram {
-	position: relative;
+	position: absolute;
 	top: 5px;
+	left: 15%
 }
 
 
 
 #twitter {
-	position: relative;
-	top: 30px;
+	position: absolute;
+	top: 70px;
+	left: 15%
 
 }
 
 
 
 #github {
-	position: relative;
-	top: 55px;
+	position: absolute;
+	top: 140px;
+	left: 15%
+}
+
+
+
+#instructions {
+	position: absolute;
+	top: 185px;
+}
+
+
+
+#instructions-text {
+	font-size: 18px
 }
 
 
 
 #emails-tab-text {
 	font-size: 26px 
+}
+
+
+
+.emailText {
+	color: rgb(100,0,255);
+	text-shadow: 1px 1px 3px rgb(70,0,255);
+	font-size: 30px
 }
 
 
