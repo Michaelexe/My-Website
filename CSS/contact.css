@@ -112,6 +112,16 @@ body {
 
 
 #socials-content {
+	display: all;
+	position: absolute;
+	top: 25%;
+	left: 10%;
+}
+
+
+
+#emails-content {
+	display: none;
 	position: absolute;
 	top: 25%;
 	left: 10%;
