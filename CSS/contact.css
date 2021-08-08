@@ -14,11 +14,10 @@ body {
 
 
 
-
 #top-bar {
 	background-color: rgb(10,10,10); 
 	width: 100%; 
-	height: 14%;
+	height: 13%;
 }
 
 
@@ -27,7 +26,8 @@ body {
 	background-color: rgb(10,10,10); 
 	position: absolute; 
 	left: 16.6%; 
-	width: 16.6%
+	width: 16.6%;
+	height: 12%
 }
 
 
@@ -38,6 +38,7 @@ body {
 	position: absolute; 
 	left: 33.3%; 
 	width: 16.6%;
+	height: 12%
 }
 
 
@@ -47,6 +48,7 @@ body {
 	position: absolute; 
 	left: 50%; 
 	width: 16.6%;
+	height: 12%
 }
 
 
@@ -56,6 +58,7 @@ body {
 	position: absolute; 
 	left: 66.6%; 
 	width: 16.6%;
+	height: 12%
 }
 
 
@@ -73,48 +76,111 @@ body {
 
 
 
+#socials-tab {
+	position: absolute;
+	left: 12.5%;
+	width: 25%;
+	height: 18%;
+	border-bottom: 4px solid rgb(0,200,255);
+	cursor: pointer;
+}
+
+
+
+#socials-tab-header {
+	font-size: 26px;
+	color: rgb(0,200,255);
+}
+
+
+
+#emails-tab {
+	position: absolute;
+	left: 62.5%;
+	width: 25%;
+	height: 18%;
+	cursor: pointer;
+}
+
+
+
+#emails-tab-header {
+	font-size: 26px;
+	color: rgb(150,150,150);
+}
+
+
+
+#socials-content {
+	position: absolute;
+	top: 25%;
+	left: 10%;
+}
+
+
+
 #instagram {
-	position: absolute; 
-	left: 30%; 
-	background-color: white
+	position: relative;
+	top: 5px;
 }
 
 
 
 #twitter {
-	position: absolute; 
-	left: 47.5%; 
-	background-color: white
+	position: relative;
+	top: 30px;
+
 }
 
 
 
 #github {
-	position: absolute; 
-	left: 65%;
-	background-color: white
+	position: relative;
+	top: 55px;
+}
+
+
+
+#emails-tab-text {
+	font-size: 26px 
 }
 
 
 
 #home-tab:hover {
 	background-color:  black;
+	border-bottom: 4px solid white;
 }
 
 
 
 #guitar-tab:hover {
 	background-color:  black;
+	border-bottom: 4px solid white;
 }
 
 
 
 #code-tab:hover {
 	background-color:  black;
+	border-bottom: 4px solid white;
 }
 
 
 
 #courses-tab:hover {
 	background-color:  black;
+	border-bottom: 4px solid white;
+}
+
+
+
+#emails-tab:hover #emails-tab-header{
+	color: rgb(0,200,255);
+}
+
+
+
+#emails-tab:hover {
+	border-bottom: 4px solid rgb(0,200,255);
 }
