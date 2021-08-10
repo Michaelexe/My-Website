@@ -1,6 +1,5 @@
 p {
-	color: white; 
-	text-shadow: 3px 3px 5px black; 
+	color: black; 
 	font-size: 24px; 
 	margin: 40px
 }
@@ -13,17 +12,6 @@ body {
 	margin: 0px
 	}
 
-
-
-h1{
-	text-shadow: 3px 3px 5px black
-}
-
-
-
-h2{
-	text-shadow: 3px 3px 5px black
-}
 
 
 
@@ -76,6 +64,159 @@ h2{
 
 
 
+#box {
+	position: relative;
+	top: -25px;
+	left: 7%;
+	width: 86%;
+	height: 90%;
+	background-color: white;
+	border-radius: 10px;
+	margin: 0px
+}
+
+
+
+#tab-container {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	height: 85px;
+	width: 100%;
+}
+
+
+
+#content-container {
+	position: relative;
+	top: 120px;
+	height: 70%;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+
+
+#coronalive-tab {
+	position: absolute;
+	left: 5%;
+	width: 18%;
+	height: 100%;
+	border-bottom: 4px solid rgb(255,0,0);
+	cursor: pointer;
+}
+
+
+
+#coronalive-tab-header {
+	color: rgb(255,0,0);
+	font-size: 24px;
+	text-shadow: 1px 1px 2px grey;
+}
+
+
+
+#snake-game-tab {
+	position: absolute;
+	left: 23%;
+	width: 18%;
+	height: 100%;
+	cursor: pointer;
+}
+
+
+
+#snake-game-tab-header {
+	color: rgb(180,180,180);
+	font-size: 24px;
+	text-shadow: 1px 1px 2px grey;
+}
+
+
+
+#tik-tak-toe-tab {
+	position: absolute;
+	left: 41%;
+	width: 18%;
+	height: 100%;
+	cursor: pointer;
+}
+
+
+
+#tik-tak-toe-tab-header {
+	color: rgb(180,180,180);
+	font-size: 24px;
+	text-shadow: 1px 1px 2px grey;
+}
+
+
+
+#password-improver-tab {
+	position: absolute;
+	left: 59%;
+	width: 18%;
+	height: 100%;
+	cursor: pointer;
+}
+
+
+
+#password-improver-tab-header {
+	color: rgb(180,180,180);
+	font-size: 24px;
+	text-shadow: 1px 1px 2px grey;
+}
+
+
+
+#this-website-tab {
+	position: absolute;
+	left: 77%;
+	width: 18%;
+	height: 100%;
+	cursor: pointer;
+}
+
+
+
+#this-website-tab-header {
+	color: rgb(180,180,180);
+	font-size: 24px;
+	text-shadow: 1px 1px 2px grey;
+}
+
+
+
+#coronalive-content {
+	display: block;
+}
+
+
+
+#snake-game-content {
+	display: none;
+}
+
+
+
+#tik-tak-toe-content {
+	display: none;
+}
+
+
+
+#password-improver-content {
+	display: none;
+}
+
+
+#website-content {
+	display: none;
+}
+
+
+
 #home-tab:hover {
 	background-color:  black;
 	border-bottom: 4px solid white;
@@ -98,6 +239,71 @@ h2{
 
 
 #courses-tab:hover {
-	background-color:  black;
+	background-color: black;
 	border-bottom: 4px solid white;
+}
+
+
+
+#this-website-tab:hover #this-website-tab-header {
+	color: rgb(50,0,255) !important;
+	text-shadow: 1px 1px 2px grey !important;
+}
+
+
+
+#this-website-tab:hover {
+	border-bottom: 4px solid rgb(50,0,255) !important;
+}
+
+
+
+#password-improver-tab:hover #password-improver-tab-header {
+	color: rgb(0,150,255) !important;
+	text-shadow: 1px 1px 2px grey !important;
+}
+
+
+
+#password-improver-tab:hover {
+	border-bottom: 4px solid rgb(0,150,255) !important;
+}
+
+
+
+#tik-tak-toe-tab:hover #tik-tak-toe-tab-header {
+	color: rgb(0,255,0) !important;
+	text-shadow: 1px 1px 2px grey !important;
+}
+
+
+
+#tik-tak-toe-tab:hover {
+	border-bottom: 4px solid rgb(0,255,0) !important;
+}
+
+
+
+#snake-game-tab:hover #snake-game-tab-header {
+	color: rgb(255,255,0) !important;
+	text-shadow: 1px 1px 2px grey !important;
+}
+
+
+
+#snake-game-tab:hover {
+	border-bottom: 4px solid rgb(255,255,0) !important;
+}
+
+
+
+#coronalive-tab:hover #coronalive-tab-header {
+	color: rgb(255,0,0) !important;
+	text-shadow: 1px 1px 2px grey !important;
+}
+
+
+
+#coronalive-tab:hover {
+	border-bottom: 4px solid rgb(255,0,0) !important;
 }
