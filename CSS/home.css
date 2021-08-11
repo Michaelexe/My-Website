@@ -17,17 +17,17 @@ body {
 
 #top-bar {
 	background-color: rgb(10,10,10);
-	height: 47%
+	height: 220px
 }
 
 
 #guitar-tab {
 	background-color: rgb(10,10,10); 
 	position: absolute; 
-	top: 33%;
+	top: 160px;
 	left: 16.6%; 
 	width: 16.6%;
-	height: 13%
+	height: 56px
 }
 
 
@@ -35,10 +35,10 @@ body {
 #code-tab {
 	background-color: rgb(10,10,10); 
 	position: absolute; 
-	top: 33%;
+	top: 160px;
 	left: 33.3%; 
 	width: 16.6%;
-	height: 13%
+	height: 56px
 }
 
 
@@ -46,10 +46,10 @@ body {
 #courses-tab {
 	background-color: rgb(10,10,10); 
 	position: absolute; 
-	top: 33%;
+	top: 160px;
 	left: 50%; 
 	width: 16.6%;
-	height: 13%
+	height: 56px
 }
 
 
@@ -57,10 +57,10 @@ body {
 #contact-tab {
 	background-color: rgb(10,10,10); 
 	position: absolute; 
-	top: 33%;
+	top: 160px;
 	left: 66.6%; 
 	width: 16.6%;
-	height: 13%
+	height: 56px
 }
 
 
