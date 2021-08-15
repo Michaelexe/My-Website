@@ -132,11 +132,8 @@ body {
 
 
 
-<<<<<<< HEAD
+
 @media only screen and (max-width: 600px) {
-=======
-@media (max-width: 900px) {
->>>>>>> 1125f51236cd632b595d18e0a92a185bdff6c976
 
 	#top-bar {
 		display: none;
