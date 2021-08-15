@@ -132,7 +132,7 @@ body {
 
 
 
-@media (max-width: 600) {
+@media (max-width: 600px) {
 
 	#top-bar {
 		display: none;
