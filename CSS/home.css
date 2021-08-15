@@ -132,7 +132,7 @@ body {
 
 
 
-@media (orientation: portrait) {
+@media (max-width: 900px) {
 
 	#top-bar {
 		display: none;
