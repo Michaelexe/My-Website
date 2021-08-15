@@ -129,3 +129,13 @@ body {
 	border-bottom: 4px solid white;
 }
 
+
+
+
+@media (max-width: 600) {
+
+	#top-bar {
+		display: none;
+	}
+
+}
